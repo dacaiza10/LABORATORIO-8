@@ -46,11 +46,11 @@ NRC: 10063
 
 8.5.2. Ajuste el generador de funciones, para que proporcione una señal de 20 Vpp a una frecuencia de 2.5 Khz.
 
-![image](https://user-images.githubusercontent.com/117781501/219458238-90615433-7822-40f9-bc0e-d2ca418aeeeb.png)
+![image](https://user-images.githubusercontent.com/116780175/219694645-444ea161-2b6b-4cd8-b113-631639357321.png)
 
 8.5.3. Conecte el osciloscopio al resistor de carga RL. Observe la señal que aparece en el osciloscopio.
 
-![image](https://user-images.githubusercontent.com/117781501/219458290-446b1628-b041-4f57-b0c6-e2804b73ad30.png)
+![image](https://user-images.githubusercontent.com/116780175/219695980-0133fe53-d072-474f-b1a0-ba02dfda7445.png)
 
 8.5.4. Responda las siguientes preguntas:
 
@@ -58,7 +58,7 @@ NOTA: Todas las preguntas son relacionadas, por lo que debe considerar las respu
 
 ¿Cuántas divisiones por cuadro abarca la amplitud pico de la señal de salida?
 
-Aproximadamente 5.5 cuadros del valor central de la onda.
+Aproximadamente 3.5 cuadros del valor central de la onda.
 
 ¿En qué valor está posicionada la perilla VOLTS/DIV? 2V
 
@@ -70,7 +70,7 @@ Aproximadamente 5.5 cuadros del valor central de la onda.
 
 8.5.5. ¿Cuál es la amplitud de voltaje y el periodo de la señal que aparece en la pantalla del osciloscopio?
 
-Amplitud de voltaje: 11.2V
+Amplitud de voltaje: 6.8V
 
 Periodo: 0.4ms
 
@@ -80,17 +80,18 @@ f: 2500 (Hz)
 
 w: 5000\pi (rad/s)
 
-8.5.7. Con el multímetro digital mida el voltaje de salida en RL: 11V
+8.5.7. Con el multímetro digital mida el voltaje de salida en RL: 4.85V
 
-![image](https://user-images.githubusercontent.com/117781501/219459673-6c4ac3e0-978b-497e-95c2-9b078239abfa.png)
+![image](https://user-images.githubusercontent.com/116780175/219696600-03b99d59-f86e-454b-bdfe-455713074ead.png)
 
 8.5.8. Compare el voltaje medido en el punto 8.5.5. y el obtenido en el punto 8.5.7. ¿Coinciden? 
 
-No, el valor que me otorga el osciloscopio es de 11.2 V mientras que el multímetro lee 11V
+No, el valor que me otorga el osciloscopio es de 6.8 V mientras que el multímetro lee 4.85V
 
 ¿Por qué?
 
-En un multímetro convencional el voltaje medido de la corriente alterna será el rms; sin embargo, PROTEUS tiene la facilidad de medir mediante un multímetro la corriente alterna, ya que su multímetro si presenta esta opción, por ello no muestra el valor rms, sino un valor cercano al voltaje pico del osciloscopio, solo varía por 0.2V. 
+Los valores son distintos debido a que el multimetro mide el valor rms del valor pico señalado por el osciloscopio,
+de tal forma que expresa el 70% aproximadamente del valor pico
 
 # 8.6. VIDEO
 
